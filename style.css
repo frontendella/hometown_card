@@ -1,0 +1,124 @@
+body {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-family: "Inika", serif;
+  font-style: normal;
+  border: white 6px solid;
+  border-radius: 30px;
+}
+
+header {
+  text-shadow: 0px 0px 1px black;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url("images/union city.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  border-top: 30px;
+}
+
+.header-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+.header-title {
+  margin-top: 150px;
+  margin-bottom: 0;
+  background-color: #1d3557;
+  width: 250px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.header-subtitle {
+  width: 400px;
+  background-color: #2d486f;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 100%;
+  padding-top: 50px;
+  position: absolute;
+  background: #e5f0ea;
+}
+
+.item {
+  line-height: 20px;
+  color: #1d3557;
+  margin: 50px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  left: 83px;
+  top: 59px;
+  border-radius: 100%;
+  box-shadow: 0px 4px 8px 0px rgb(50, 49, 49);
+}
+.logo:hover {
+  filter: grayscale();
+}
+.person_image {
+  height: 200px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.person_image:hover {
+  filter: grayscale(100%);
+}
+.text-1 {
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 16px;
+}
+.text-2 {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+footer {
+  background: #f9fdfb;
+  position: absolute;
+  margin: 70px 0;
+  top: 700px;
+  padding-top: 100px;
+  width: 100%;
+  height: 500px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+footer > div {
+  display: flex;
+  direction: column;
+  margin: 20px auto 40px auto;
+  background: #c1d0c4;
+  width: 400px;
+  font-family: "Italianno", cursive;
+  padding: 10px;
+  box-shadow: 0px 4px 8px 0px rgb(50, 49, 49);
+  border-radius: 10px;
+}
+#feedback {
+  background: #c1d0c4;
+  font-family: "Marck Script", cursive;
+}
+footer > h3,
+h4 {
+  background: #c1d0c4;
+}
