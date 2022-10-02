@@ -6,8 +6,9 @@
 
 
 
-
-
+# About
+___
+  
 Solo project:  'from scratch' project as part of learning Frontend Web Dev from Scrimba.com after completing the basic HTML and CSS introduction section. 
 
 The requirements were:
